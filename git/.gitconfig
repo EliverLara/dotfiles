@@ -1,0 +1,59 @@
+[user]
+	name = EliverLara
+	email = eliverlara@gmail.com
+
+# so much color
+[color]
+	ui = always
+[color "diff"]
+	meta = yellow bold
+	commit = green bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = "red bold 52"
+	newNormal = "green bold"
+	newHighlight = "green bold 22"
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RFX
+#	editor = code --wait
+[alias]
+	l = log --oneline
+	st = status
+	pom = push -u origin master
+	posb = push -u origin standard-buttons
+	possb = push -u origin slim-standard-buttons
+	pos = push -u origin slim
+	chm = checkout master
+	chsb = checkout standard-buttons
+	chssb = checkout slim-standard-buttons
+	chs = checkout slim
+	cm = commit -m 
+	cp = cherry-pick 
+	ch = checkout
+	po = push -u origin
+	dsf = "!f() { [ -z \"$GIT_PREFIX\" ] || cd \"$GIT_PREFIX\" && git diff --color \"$@\" | diff-so-fancy  | less --tabs=4 -RFX; }; f"
+	lfixes = !git log --no-merges --pretty='* %Cgreen%s' $(git describe --tags --abbrev=0)..HEAD --grep='fix' -i #list commits that are fixes
+	lnfixes = !git log --no-merges --pretty='* %Cgreen%s' $(git describe --tags --abbrev=0)..HEAD --grep='fix' -i --invert-grep #list commits that are not fixes
+	lcid = !git l | head -1 | cut -d' ' -f1 #last commit id
+
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
