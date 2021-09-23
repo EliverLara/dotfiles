@@ -1,0 +1,1 @@
+/home/lara/.local/share/omf/themes/A1/fish_prompt.fish
