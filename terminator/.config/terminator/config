@@ -1,0 +1,426 @@
+[global_config]
+  scroll_tabbar = True
+  homogeneous_tabbar = False
+  inactive_color_offset = 1.0
+  enabled_plugins = CustomCommandsMenu, TestPlugin, TerminatorThemes, Blitz, ActivityWatch, LaunchpadBugURLHandler, Lara, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler
+  suppress_multiple_term_dialog = True
+  always_split_with_profile = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.87
+    background_type = transparent
+    cursor_color = "#ffff00"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Bold 10
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    exit_action = hold
+    palette = "#2e3436:#ff0000:#00ff00:#ffff00:#ff8700:#ff5faf:#00ffaf:#d3d7cf:#555753:#ff0000:#00ff00:#ffff00:#ff8700:#ff5faf:#00ffaf:#eeeeec"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[Aurora]]
+    background_color = "#0f1c21"
+    cursor_color = "#00485a"
+    cursor_color_fg = False
+    font = Source Code Pro Heavy 10
+    foreground_color = "#80b6ad"
+    show_titlebar = False
+    exit_action = hold
+    palette = "#0f1c21:#046655:#04c975:#b5bd68:#308891:#94a5bc:#8abeb7:#80b6ad:#94a5bc:#046655:#04c975:#b5bd68:#308891:#94a5bc:#8abeb7:#80b6ad"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[Blitz]]
+    background_color = "#16141e"
+    cursor_color = "#00ecc8"
+    cursor_color_fg = False
+    font = Fira Mono Medium for Powerline Bold 10
+    foreground_color = "#00ecc8"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    exit_action = hold
+    palette = "#2e3436:#f70047:#00ff7d:#fcdd42:#26b3d2:#b055f4:#ff8db4:#d3d7cf:#c0bfbc:#ff5555:#55ff55:#ffff55:#729fcf:#ff55ff:#34e2e2:#eeeeec"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[Chalkby]]
+    background_color = "#1f2d2d"
+    background_darkness = 0.87
+    background_type = transparent
+    cursor_color = "#ffffff"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    exit_action = hold
+    palette = "#2e3436:#ffb0b0:#c8ff9b:#fffca4:#6f9ceb:#9395d3:#bdeaff:#d3d7cf:#555753:#ffb0b0:#c8ff9b:#fffca4:#6f9ceb:#9395d3:#bdeaff:#eeeeec"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[Dracula]]
+    background_color = "#300a24"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#0000cd:#cd00cd:#00cdcd:#faebd7:#404040:#ff0000:#00ff00:#ffff00:#0000ff:#ff00ff:#00ffff:#ffffff"
+  [[Halcyon]]
+    background_color = "#171c28"
+    cursor_color = "#5ccfe6"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#d7dce2"
+    show_titlebar = False
+    exit_action = hold
+    palette = "#1d2433:#ef6b73:#bae67e:#ffd580:#6679a4:#c3a6ff:#5ccfe6:#d7dce2:#1d2433:#ef6b73:#bae67e:#ffd580:#6679a4:#c3a6ff:#5ccfe6:#d7dce2"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[Lucy]]
+    background_color = "#1a1b23"
+    background_darkness = 0.94
+    background_type = transparent
+    cursor_color = "#af98e6"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#96979b"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    exit_action = hold
+    palette = "#2e3436:#fb7da7:#76c5a4:#e8d56d:#3465a4:#af98e6:#56c9db:#d3d7cf:#555753:#fb7da7:#76c5a4:#e8d56d:#729fcf:#af98e6:#56c9db:#eeeeec"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[Material-Ocean]]
+    background_color = "#161925"
+    background_darkness = 0.87
+    background_type = transparent
+    cursor_color = "#ffcc00"
+    cursor_color_fg = False
+    font = Fira Mono Medium for Powerline Bold 10
+    foreground_color = "#8f93a2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    exit_action = hold
+    palette = "#2e3436:#ff5370:#c3e88d:#ffcb6b:#82aaff:#c792ea:#89ddff:#d3d7cf:#555753:#f07178:#c3e88d:#f78c6c:#729fcf:#bb80b3:#89ddff:#eeeeec"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[Material-Palenight]]
+    background_color = "#292d3e"
+    background_darkness = 0.87
+    background_type = transparent
+    cursor_color = "#ffcc00"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#a6accd"
+    show_titlebar = False
+    scrollbar_position = hidden
+    exit_action = hold
+    palette = "#2e3436:#ff5370:#c3e88d:#ffcb6b:#82aaff:#c792ea:#89ddff:#d3d7cf:#555753:#f07178:#c3e88d:#f78c6c:#729fcf:#bb80b3:#89ddff:#eeeeec"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[Night Owl]]
+    background_color = "#011627"
+    cursor_color = "#80a4c2"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#d6deeb"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    exit_action = hold
+    palette = "#2e3436:#ef5350:#80cbc4:#ffeb95:#82aaff:#c792ea:#addb67:#d3d7cf:#555753:#ef5350:#80cbc4:#ffeb95:#82aaff:#c792ea:#addb67:#eeeeec"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[Nord]]
+    background_color = "#2E3440"
+    background_darkness = 0.87
+    background_type = transparent
+    cursor_color = "#D8DEE9"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#D8DEE9"
+    show_titlebar = False
+    scrollbar_position = hidden
+    exit_action = hold
+    palette = "#3B4252:#BF616A:#A3BE8C:#EBCB8B:#81A1C1:#B48EAD:#88C0D0:#E5E9F0:#4C566A:#BF616A:#A3BE8C:#EBCB8B:#81A1C1:#B48EAD:#8FBCBB:#ECEFF4"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[Rose]]
+    background_color = "#191724"
+    cursor_color = "#9ccfd8"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#e0def4"
+    show_titlebar = False
+    exit_action = hold
+    palette = "#26233a:#eb6f91:#9ccfd8:#f6c177:#31748f:#65618d:#c4a7e7:#d3d7cf:#26233a:#eb6f91:#9ccfd8:#f6c177:#31748f:#65618d:#c4a7e7:#eeeeec"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[Sick]]
+    background_color = "#272935"
+    cursor_color = "#aaaaaa"
+    font = Source Code Pro Heavy 10
+    foreground_color = "#aeaeb1"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    exit_action = hold
+    palette = "#2e3436:#f47375:#6bf1be:#e5f081:#6aa1fd:#c481ff:#6de4fd:#d3d7cf:#555753:#f47375:#6bf1be:#e5f081:#6aa1fd:#c481ff:#6de4fd:#eeeeec"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[Solarized Dark]]
+    background_color = "#002b36"
+    background_darkness = 0.87
+    background_type = transparent
+    cursor_color = "#eee8d5"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#eee8d5"
+    show_titlebar = False
+    scrollbar_position = hidden
+    exit_action = hold
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#586e75:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[Venom]]
+    background_color = "#060d14"
+    cursor_color = "#9ecfa2"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#668198"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    exit_action = hold
+    palette = "#2e3436:#e94759:#9ecfa2:#f3efa9:#00898d:#9c21b0:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[ayu]]
+    background_color = "#0f1419"
+    cursor_color = "#aaaaaa"
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#e6e1cf"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#0f1419:#ff3333:#89b73d:#f49c20:#3ea7dc:#b37ed0:#3ea7dc:#f2f2f2:#555753:#ff3333:#89b73d:#f49c20:#3ea7dc:#b37ed0:#3ea7dc:#828c9a"
+    use_system_font = False
+  [[ayu-light]]
+    background_color = "#f5f5f5"
+    cursor_color = "#aaaaaa"
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#5c6773"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#5c6773:#ff3333:#86b300:#f29718:#41a6d9:#a37acc:#41a6d9:#d9d8d7:#828c99:#ff3333:#86b300:#f29718:#41a6d9:#a37acc:#41a6d9:#d9d8d7"
+    use_system_font = False
+  [[ayu-mirage]]
+    background_color = "#212733"
+    cursor_color = "#aaaaaa"
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#d9d7ce"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#212733:#ff3333:#bae67e:#ffd580:#5ccfe6:#d4bfff:#5ccfe6:#3d4752:#3e4b59:#ff3333:#bae67e:#ffd580:#5ccfe6:#d4bfff:#5ccfe6:#eeeeec"
+    use_system_font = False
+  [[bloody mary]]
+    background_color = "#1e1f29"
+    cursor_color = "#f9dc5c"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Heavy 10
+    show_titlebar = False
+    scrollbar_position = hidden
+    scroll_on_output = True
+    scrollback_infinite = True
+    exit_action = hold
+    palette = "#2e3436:#ff512f:#b2ffa9:#fffd82:#3185fc:#dd2476:#66d7d1:#f2efea:#555753:#ff512f:#b2ffa9:#fffd82:#3185fc:#dd2476:#66d7d1:#f2efea"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[candy]]
+    background_darkness = 0.91
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Source Code Pro for Powerline Heavy 10
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#2e3436:#fa2573:#a6e32d:#fc951e:#c48dff:#fa2573:#67d9f0:#f2f2f2:#555753:#fa2573:#8ae234:#fce94f:#729fcf:#fa2573:#34e2e2:#eeeeec"
+    use_system_font = False
+  [[chesterish]]
+    background_color = "#293340"
+    cursor_color = "#2c85f7"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#cdd2e9"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#293340:#e17e85:#61ba86:#ffec8e:#4cb2ff:#be86e3:#2dced0:#cdd2e9:#546386:#e17e85:#61ba86:#ffec8e:#4cb2ff:#be86e3:#2dced0:#cdd2e9"
+    use_system_font = False
+  [[cobalt]]
+    background_color = "#132738"
+    cursor_color = "#aaaaaa"
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    palette = "#000000:#ff0000:#38de21:#ffe50a:#1460d2:#ff005d:#00bbbb:#bbbbbb:#555555:#ff0000:#38de21:#ffe50a:#1460d2:#ff55ff:#6ae3fa:#ffffff"
+    use_system_font = False
+  [[dracula]]
+    background_color = "#1e1f29"
+    cursor_color = "#aaaaaa"
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#f8f8f2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#1e1f29:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#94a3a5:#000000:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#ffffff"
+    use_system_font = False
+    copy_on_selection = True
+  [[mars]]
+    background_color = "#1a1e21"
+    cursor_color = "#e1dd8f"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#76777a"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scroll_on_keystroke = False
+    scrollback_infinite = True
+    exit_action = hold
+    palette = "#2e3436:#f67e7d:#cae7b9:#e1dd8f:#729fcf:#d7bcc8:#a0c1b9:#d3d7cf:#555753:#f67e7d:#cae7b9:#e1dd8f:#729fcf:#d7bcc8:#a0c1b9:#eeeeec"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[material-colors]]
+    background_color = "#1e282c"
+    cursor_color = "#657B83"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#c3c7d1"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scroll_on_output = True
+    scrollback_infinite = True
+    exit_action = hold
+    palette = "#073641:#eb606b:#c3e88d:#f7eb95:#80cbc3:#ff2490:#aeddff:#ffffff:#002b36:#eb606b:#c3e88d:#f7eb95:#7dc6bf:#6c71c3:#34434d:#ffffff"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[one-dark]]
+    background_color = "#1e2127"
+    cursor_color = "#676c76"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#5c6370"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scroll_on_output = True
+    scrollback_infinite = True
+    exit_action = hold
+    palette = "#000000:#e06c75:#98c379:#d19a66:#61afef:#c678dd:#56b6c2:#abb2bf:#5c6370:#e06c75:#98c379:#d19a66:#61afef:#c678dd:#56b6c2:#fffefe"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[snazzy]]
+    background_color = "#282a36"
+    cursor_color = "#aaaaaa"
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#eff0eb"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#282a36:#ff5c57:#5af78e:#f3f99d:#57c7ff:#ff6ac1:#9aedfe:#f1f1f0:#686868:#ff5c57:#5af78e:#f3f99d:#57c7ff:#ff6ac1:#9aedfe:#eff0eb"
+    use_system_font = False
+  [[test]]
+    cursor_color = "#aaaaaa"
+    use_theme_colors = True
+  [[Brogrammer]]
+    background_color = "#131313"
+    background_darkness = 0.87
+    background_type = transparent
+    cursor_color = "#b9b9b9"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#d6dbe5"
+    show_titlebar = False
+    scrollbar_position = hidden
+    exit_action = hold
+    palette = "#1f1f1f:#f81118:#2dc55e:#ecba0f:#2a84d2:#4e5ab7:#1081d6:#d6dbe5:#d6dbe5:#de352e:#1dd361:#f3bd09:#1081d6:#5350b9:#0f7ddb:#ffffff"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[3024 Day]]
+    background_color = "#f7f7f7"
+    background_darkness = 0.87
+    background_type = transparent
+    cursor_color = "#4a4543"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#4a4543"
+    show_titlebar = False
+    scrollbar_position = hidden
+    exit_action = hold
+    palette = "#090300:#db2d20:#01a252:#fded02:#01a0e4:#a16a94:#b5e4f4:#a5a2a2:#5c5855:#e8bbd0:#3a3432:#4a4543:#807d7c:#d6d5d4:#cdab53:#f7f7f7"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = bbdba8c9-b1c3-40d5-8272-4ecbd71106ba
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 10:10
+      size = 944, 487
+      
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = Material-Ocean
+      type = Terminal
+      uuid = bbdba8c9-b1c3-40d5-8272-4ecbd71106ba
+  [[cap]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 2c4a4d6e-5210-4ef0-ac5c-1eec23dcc270
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 60:43
+      size = 594, 205
+      title = fish  /home/lara
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = cobalt
+      type = Terminal
+      uuid = 2c4a4d6e-5210-4ef0-ac5c-1eec23dcc270
+[plugins]
+  [[CustomCommandsMenu]]
+    [[[test]]]
+      command = ls
+      enabled = True
+      name = test
+      position = 0
