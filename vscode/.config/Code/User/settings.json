@@ -1,0 +1,71 @@
+{
+    "materialTheme.cache.workbench.settings": {
+        "themeColours": "Palenight"
+    },
+    "editor.fontLigatures": true,
+    // Controls whether the editor should render whitespace characters
+    "editor.renderWhitespace": "none",
+
+    // Controla el grosor de la fuente.
+    "editor.fontWeight": "700",
+    //"editor.formatOnPaste": true,
+
+    // Controla el tamaño de fuente en píxeles.
+    "editor.fontSize": 14,
+    "window.menuBarVisibility": "toggle",
+
+    "terminal.integrated.shell.linux": "/usr/bin/fish",
+    "terminal.integrated.fontFamily": "source code pro for powerline",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "python.disablePromptForFeatures": [
+        "pylint"
+    ],
+    "editor.wordWrap": "on",
+    "material-icon-theme.folders.theme": "specific",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true
+    },
+    "materialTheme.autoApplyIcons": true,
+    "materialTheme.fixIconsRunning": false,
+    "editor.fontFamily": "Operator mono medium",
+    "files.exclude": {
+        "**/node_modules": true
+    },
+    "material-icon-theme.folders.color": "#90a4ae",
+    "materialTheme.accent": "Bright Teal",
+    // "workbench.colorCustomizations": {
+    //     "activityBarBadge.background": "#64FFDA",
+    //     "list.activeSelectionForeground": "#64FFDA",
+    //     "list.inactiveSelectionForeground": "#64FFDA",
+    //     "list.highlightForeground": "#64FFDA",
+    //     "scrollbarSlider.activeBackground": "#64FFDA50",
+    //     "editorSuggestWidget.highlightForeground": "#64FFDA",
+    //     "textLink.foreground": "#64FFDA",
+    //     "progressBar.background": "#64FFDA",
+    //     "pickerGroup.foreground": "#64FFDA",
+    //     "tab.activeBorder": "#64FFDA",
+    //     "notificationLink.foreground": "#64FFDA",
+    //     "editorWidget.resizeBorder": "#64FFDA",
+    //     "editorWidget.border": "#64FFDA",
+    //     "settings.modifiedItemIndicator": "#64FFDA",
+    //     "settings.headerForeground": "#64FFDA",
+    //     "panelTitle.activeBorder": "#64FFDA",
+    //     "breadcrumb.activeSelectionForeground": "#64FFDA",
+    //     "menu.selectionForeground": "#64FFDA",
+    //     "menubar.selectionForeground": "#64FFDA"
+    // },
+    "workbench.colorTheme": "Andromeda Italic",
+    "terminal.integrated.rendererType": "dom",
+    "window.titleBarStyle": "native",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "sweet-vscode-icons",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "window.zoomLevel": 1,
+    "security.workspace.trust.untrustedFiles": "open",
+    // "vscode_custom_css.imports": [ "file:///Users/{your username}/synthwave84.css"],
+    // "vscode_custom_css.policy": true,
+}
