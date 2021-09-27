@@ -1,0 +1,96 @@
+! █▓▒░ color scheme
+
+! blaquebeard
+! special
+*.foreground:   #c2c2b0
+*.background:   #222222
+*.cursorColor:  #c2c2b0
+
+! black
+*.color0:       #222222
+*.color8:       #222222
+
+! red
+*.color1:       #924650
+*.color9:       #924650
+
+! green
+*.color2:       #666666
+*.color10:      #666666
+
+! yellow
+*.color3:       #ba9864
+*.color11:      #ba9864
+
+! blue
+*.color4:       #888888
+*.color12:      #888888
+
+! magenta
+*.color5:       #4f8396
+*.color13:      #4f8396
+
+! cyan
+*.color6:       #777777
+*.color14:      #777777
+
+! white
+*.color7:       #c2c2b0
+*.color15:      #c2c2b0
+
+
+! █▓▒░ fonts
+!urxvt*font: xft:GohuFont:size=3:antialias=true, \
+!urxvt*font: xft:gohufont:size=7:antialias=false
+!urxvt*font: -*-creep-regular-*-*--16-*-*-*-*-*-*-1
+!urxvt*font: -*-lime-*-*-*--11-*-*-*-*-*-*-1
+!urxvt*font: xft:creep:size=16:antialias=true
+!urxvt*font: xft:envy code r:size=9:antialias=false
+!urxvt*font: xft:lemon:size=16:antialias=false
+!urxvt*font: xft:lime:size=16:antialias=false
+!urxvt*font: xft:neep:size=11:antialias=false
+!urxvt*font: xft:perfect dos vga 437:size=11:antialias=false
+!urxvt*font: xft:tewi:size=11:antialias=false
+urxvt*font: xft:source code pro for powerline:style=black:size=10:hinting=full, \
+            xft:Symbola:size=11:antialias=true:hinting=full
+
+urxvt*boldFont: 
+urxvt*italicFont: 
+urxvt*bolditalicFont: 
+
+urxvt*letterSpace: -1
+urxvt*lineSpace: -1
+
+! █▓▒░ interface
+urxvt*scrollBar: false
+urxvt*transparent: false
+urxvt*internalBorder: 0
+urxvt*borderColor: #3B4252
+urxvt*borderLess:false
+
+! █▓▒░ extensions
+urxvt.perl-ext-common: default,clipboard,keyboard-select,url-select
+urxvt.keysum.M-u: perl:url-select:select_next
+urxvt.url-select.autocopy: true
+urxvt.url-select.launcher: chromium
+urxvt.keysym.M-Escape: perl:keyboard-select:activate
+urxvt.keysym.M-c:   perl:clipboard:copy
+urxvt.keysym.C-v:   perl:clipboard:paste
+urxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+urxvt.clipboard.copycmd:  xsel -ib
+urxvt.clipboard.pastecmd: xsel -ob
+
+! █▓▒░ misc
+urxvt.saveLines: 9999
+urxvt.iso14755: false
+!URxvt*altSendsEscape: true
+
+Xft.dpi: 190
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+twobwm.enable_compton: true
