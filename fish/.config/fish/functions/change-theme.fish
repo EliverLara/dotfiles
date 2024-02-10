@@ -9,6 +9,8 @@ function change-theme \
     switch $_type
 	        case "gtk"
 	            gsettings set org.gnome.desktop.interface gtk-theme $value
+				ln -sf ~/github/$value/gtk-4.0/gtk.css ~/.config/gtk-4.0/
+				ln -sf ~/github/$value/assets/ ~/.config/
 	        case "icon"
 	            gsettings set org.gnome.desktop.interface icon-theme $value
 	        case "shell"

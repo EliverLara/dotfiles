@@ -7,7 +7,7 @@ function pack \
     [ $variant ]; or help_usage
 
 	set -l variants master standard-buttons slim slim-standard-buttons alt-style
-	set -l folders xfwm4 metacity-1 gtk-3.20 gtk-3.0 gtk-2.0 gnome-shell unity assets cinnamon
+	set -l folders xfwm4 metacity-1 gtk-4.0 gtk-3.20 gtk-3.0 gtk-2.0 gnome-shell unity assets cinnamon
 
 	if test $_theme != "all"
 		set target $_theme 
@@ -16,7 +16,7 @@ function pack \
 	end
 
 	if test $variant != "all"
-		set variant $variants[$variant] 
+		set variant $variant
 	else
 		set variant $variants
 	end
@@ -32,7 +32,7 @@ function pack \
 		end
 
 		#Go to root theme folder on github
-		cd $i
+		cd $current
 
 		for v in $variant;
 			#echo "verga"
@@ -63,15 +63,15 @@ function pack \
 
 			echo "Compressing $current"
 			if test $v != "master"
-				tar -cf $current-$v.tar $current/* --xz
+				tar -cf $current-$v.tar.xz $current/* --xz
 			else
-				tar -cf $current.tar $current/* --xz
+				tar -cf $current.tar.xz $current/* --xz
 			end
 
 			rm -rf $current
 
 			#back to root theme folder on github
-			cd ../$i
+			cd ../$current
 
 		;end
 
