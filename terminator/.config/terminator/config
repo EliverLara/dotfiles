@@ -2,13 +2,14 @@
   scroll_tabbar = True
   homogeneous_tabbar = False
   inactive_color_offset = 1.0
-  enabled_plugins = CustomCommandsMenu, TestPlugin, TerminatorThemes, Blitz, ActivityWatch, LaunchpadBugURLHandler, Lara, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler
+  enabled_plugins = TerminatorThemes
   suppress_multiple_term_dialog = True
   always_split_with_profile = True
+  clear_select_on_copy = True
 [keybindings]
 [profiles]
   [[default]]
-    background_darkness = 0.87
+    background_darkness = 0.94
     background_type = transparent
     cursor_color = "#ffff00"
     cursor_color_fg = False
@@ -142,7 +143,7 @@
     use_system_font = False
   [[Nord]]
     background_color = "#2E3440"
-    background_darkness = 0.87
+    background_darkness = 0.91
     background_type = transparent
     cursor_color = "#D8DEE9"
     cursor_color_fg = False
@@ -377,6 +378,37 @@
     scrollbar_position = hidden
     exit_action = hold
     palette = "#090300:#db2d20:#01a252:#fded02:#01a0e4:#a16a94:#b5e4f4:#a5a2a2:#5c5855:#e8bbd0:#3a3432:#4a4543:#807d7c:#d6d5d4:#cdab53:#f7f7f7"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[catrina]]
+    background_color = "#0c0c1d"
+    background_darkness = 1.0
+    background_type = transparent
+    cursor_color = "#ff9100"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Heavy 10
+    foreground_color = "#d8dee9"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    exit_action = hold
+    palette = "#2e3436:#bf3f3f:#7eaf22:#ff9e00:#00ecda:#7627c1:#06bab7:#d3d7cf:#555753:#ff6d00:#62d435:#ff9e00:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+  [[Aci]]
+    background_color = "#0d1926"
+    background_darkness = 0.94
+    background_type = transparent
+    cursor_color = "#c4e9ff"
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline Bold 10
+    foreground_color = "#b4e1fd"
+    show_titlebar = False
+    scrollbar_position = hidden
+    exit_action = hold
+    palette = "#363636:#ff0883:#83ff08:#ff8308:#0883ff:#8308ff:#08ff83:#b6b6b6:#363636:#ff0883:#83ff08:#ff8308:#0883ff:#8308ff:#08ff83:#b6b6b6"
     use_custom_command = True
     custom_command = fish
     use_system_font = False
