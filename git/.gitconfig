@@ -27,7 +27,7 @@
 	untracked = cyan
 [core]
 	pager = diff-so-fancy | less --tabs=4 -RFX
-#	editor = code --wait
+	editor = vim
 [alias]
 	l = log --oneline
 	st = status
